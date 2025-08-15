@@ -10,19 +10,11 @@ class AboutPage extends Component {
           <h1 className="text-center">About Us</h1>
           <hr />
           <p className="lead text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            facere doloremque veritatis odit similique sequi. Odit amet fuga nam
-            quam quasi facilis sed doloremque saepe sint perspiciatis explicabo
-            totam vero quas provident ipsam, veritatis nostrum velit quos
-            recusandae est mollitia esse fugit dolore laudantium. Ex vel explicabo
-            earum unde eligendi autem praesentium, doloremque distinctio nesciunt
-            porro tempore quis eaque labore voluptatibus ea necessitatibus
-            exercitationem tempora molestias. Ad consequuntur veniam sequi ullam
-            tempore vel tenetur soluta dolore sunt maxime aliquam corporis est,
-            quo saepe dolorem optio minus sint nemo totam dolorum! Reprehenderit
-            delectus expedita a alias nam recusandae illo debitis repellat libero,
-            quasi explicabo molestiae saepe, dolorem tempore itaque eveniet quam
-            dignissimos blanditiis excepturi harum numquam vel nihil? Ipsum
+          Welcome to React Ecommerce, your one-stop destination for quality products at unbeatable prices. We’re passionate about making shopping easy, enjoyable, and affordable. Whether you're hunting for the latest fashion trends, tech gadgets, or home essentials — we’ve got you covered.
+
+Our mission is simple: deliver great products, fast shipping, and top-notch customer service. Every day, we’re working to bring you the best deals and a seamless online shopping experience.
+
+Thank you for choosing us — happy shopping! 🛍️
           </p>
 
           <h2 className="text-center py-4">Our Products</h2>

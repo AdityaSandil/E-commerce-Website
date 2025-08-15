@@ -23,21 +23,41 @@ const Product = () => {
   };
 
   const getProduct = async (id) => {
-    setLoading(true);
-    setLoading2(true);
+  setLoading(true);
+  setLoading2(true);
+  try {
+    console.log("Fetching product with ID:", id);
 
     const response = await fetch(`https://fakestoreapi.com/products/${id}`);
-    const productData = await response.json();
-    setProduct(productData);
-    setLoading(false);
+    const text = await response.text();
 
+    console.log("Product raw response text:", text);
+
+    if (!text) throw new Error("Empty product response");
+
+    const productData = JSON.parse(text);
+    console.log("Parsed productData:", productData);
+
+    setProduct(productData);
+
+    // Fetch similar products
     const response2 = await fetch(
       `https://fakestoreapi.com/products/category/${productData.category}`
     );
-    const similarProductsData = await response2.json();
+    const text2 = await response2.text();
+    const similarProductsData = text2 ? JSON.parse(text2) : [];
+
     setSimilarProducts(similarProductsData);
+  } catch (error) {
+    console.error("Error in getProduct:", error);
+  } finally {
+    setLoading(false);
     setLoading2(false);
-  };
+  }
+};
+
+  
+  
 
   const Loading = () => {
     return (

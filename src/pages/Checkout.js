@@ -175,6 +175,9 @@ class Checkout extends Component {
                         <select className="form-select" id="state" required>
                           <option value="">Choose...</option>
                           <option>Punjab</option>
+                          <option>Delhi</option>
+                          <option>Jharkhand</option>
+                          <option>Mumbai</option>
                         </select>
                         <div className="invalid-feedback">
                           Please provide a valid state.
@@ -183,7 +186,7 @@ class Checkout extends Component {
 
                       <div className="col-md-3 my-1">
                         <label htmlFor="zip" className="form-label">
-                          Zip
+                          PIN
                         </label>
                         <input
                           type="text"
