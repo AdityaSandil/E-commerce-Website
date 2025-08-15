@@ -4,13 +4,6 @@ A modern **E-Commerce Website** built using **React.js** with a clean and respon
 
 ---
 
-## 🚀 Demo
-
-*(Add your deployed link here once available)*  
-Example: [Live Demo](https://your-demo-link.com)
-
----
-
 ## ✨ Features
 
 - 🖥 Fully Responsive Design – Works on desktop, tablet, and mobile
