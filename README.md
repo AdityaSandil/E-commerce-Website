@@ -1,67 +1,34 @@
-# E-Commerce Website
+# 🛒 E-Commerce Website
 
-A Ecommerce Website made with React.js Framework.
+A modern **E-Commerce Website** built using **React.js** with a clean and responsive UI, designed for easy integration with any backend.
 
+---
 
-## Demo
+## 🚀 Demo
 
-https://reactjs-ecommerce-app.vercel.app/
+*(Add your deployed link here once available)*  
+Example: [Live Demo](https://your-demo-link.com)
 
-## Features
+---
 
-- Easy to integrate with Backend
-- Fully Responsive
+## ✨ Features
 
+- 🖥 Fully Responsive Design – Works on desktop, tablet, and mobile
+- 🔄 Easy Backend Integration – Ready to connect with APIs or databases
+- 🛍 Product Listing & Details Page
+- 🛒 Shopping Cart Functionality
+- 📦 Fake Store API Integration for Demo Data
 
-## Screenshots
+---
+
+## 📸 Screenshots
 
 ![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
 
+---
 
+## 💻 Run Locally
 
-## Run Locally
-
-Clone the project
-
+### 1️⃣ Clone the project
 ```bash
-  git clone https://github.com/ssahibsingh/React_E-Commerce
-```
-
-Go to the project directory
-
-```bash
-  cd React_E-Commerce
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm start
-```
-
-
-
-## Tech Stack
-
-* [React](https://reactjs.org/)
-* [Redux](https://redux.js.org/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Fake Store API](https://fakestoreapi.com/)
-
-## Contributing
-
-Contributions are always welcome!
-Just raise an issue, we will discuss it.
-
-
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://ssahibsingh.github.io/#contact)
-
-
+git clone https://github.com/AdityaSandil/ECommerce-main.git
